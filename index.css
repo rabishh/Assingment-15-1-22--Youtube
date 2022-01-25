@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:4rem;
+    width:100vw;
+    border-bottom:1px solid gray;
+    position:fixed;
+    top:0;
+    background-color:white;
+}
+img{
+    width:3rem;
+    height:3rem;
+}
+.yimage img{
+    width:17rem;
+    height:4rem;
+    /* margin-top:2rem; */
+}
+span{
+    margin-top:1.6rem;
+    font-size:1.5rem;
+}
+.search-btn{
+    background-color:whitesmoke;
+    height:auto;
+    /* width:10rem; */
+    cursor:pointer;
+    display:flex;
+}
+.names-icon{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:4rem;
+    /* width:100vw; */
+    border-bottom:1px solid black;
+    cursor:pointer;
+}
+.names{
+    border:1px solid black;
+    border-radius:40%;
+    height:3rem;
+    width:10rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+.lower{
+    display:flex;
+    /* width:100vw; */
+    /* background-color:red; */
+    height:auto;
+}
+.aside{
+    flex:1;
+    /* background-color:green; */
+    border-right:1px solid lightgray;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    position:fixed;
+    left:0;
+    top:7rem;
+    cursor:pointer;
+}
+.self-img{
+    border-radius:50%;
+    cursor:pointer;
+}
+.aside2{
+    flex:5;
+    /* height: 100px;
+    width:200px; */
+    /* background-color:orange; */
+    margin-left:12vw;
+    margin-top:9rem;
+    cursor:pointer;
+}
+.names-icon{
+    position:fixed;
+    top:4rem;
+    left:11rem;
+    gap:2rem;
+    background-color:white;
+    cursor:pointer;
+}
+.home{
+    display:flex;
+    justify-content: space-around;
+}
+.home h1{
+    text-align:start;
+}
+input{
+    height:2.5rem;
+    width:17rem;
+}
+.header-right{
+    width:17rem;
+    display:flex;
+    justify-content:space-between;
+    /* border:1px solid red; */
+    margin-left:20rem;
+}
+video{
+    width:25vw;
+    height:33vh;
+    cursor:pointer;
+    
+}
+.video{
+    display:flex;
+    flex-wrap:wrap; 
+    gap:3rem;
+}
